@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dqf3TIPnYFIz9eSbuaKgjzXXvE6nN/CpxH1+4h/vNze4RJMeMc9SuApyyCT+zHsAATEaJBCbVJAXsna0O2mPsQ==",
+  "dgSpecHash": "/QN3tuiCEwKh2AGRgcJ5K72Xl0ZxJWJzZdW1RTmmBupv8UhB4/nZzItLOM6DLO/R9Yv6GYHGcY7cFU2UNhdWfA==",
   "success": true,
-  "projectFilePath": "D:\\2021-2 UPN\\CALIDAD\\Semana 3\\Practica Calificada\\Practica_T1_01_Calidad\\Practica_T1_01_CalidadTest\\Practica_T1_01_CalidadTest.csproj",
+  "projectFilePath": "D:\\2021-2 UPN\\CALIDAD\\Semana 3\\Practica_T1_01_Calidad\\Practica_T1_01_CalidadTest\\Practica_T1_01_CalidadTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FRC\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\FRC\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

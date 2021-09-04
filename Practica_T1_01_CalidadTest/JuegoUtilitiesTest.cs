@@ -12,112 +12,130 @@ namespace Practica_T1_01_CalidadTest
         private Jugador jugador2 = new Jugador { Nombre = "Benja"};
 
         [Test]
-        public void Caso01()
+        public void VerGanadorCaso01()
+        {
+            var ganador = new Ganador(new List<Jugador>());
+            jugador.Eleccion = "Tijera";
+            jugador2.Eleccion = "Papel";
+            var result = ganador.VerGanador(jugador,jugador2);
+            Assert.AreEqual("gana jugador 1", result);
+        }
+        [Test]
+        public void VerGanadorCaso02()
         {
             var ganador = new Ganador(new List<Jugador>());
             jugador.Eleccion = "Papel";
             jugador2.Eleccion = "Tijera";
-            var result = ganador.VerGanador(jugador);
-            Assert.AreEqual("Gano", result);
+            var result = ganador.VerGanador(jugador, jugador2);
+            Assert.AreEqual("gana jugador 2", result);
         }
         [Test]
-        public void Caso02()
+        public void VerGanadorCaso03()
+        {
+            var ganador = new Ganador(new List<Jugador>());
+            jugador.Eleccion = "Papel";
+            jugador2.Eleccion = "Papel";
+            var result = ganador.VerGanador(jugador, jugador2);
+            Assert.AreEqual("Empate", result);
+        }
+        [Test]
+        public void VerGanadorCaso04()
+        {
+            var ganador = new Ganador(new List<Jugador>());
+            jugador.Eleccion = "";
+            jugador2.Eleccion = "";
+            var result = ganador.VerGanador(jugador, jugador2);
+            Assert.AreEqual("", result);
+        }
+        [Test]
+        public void VerGanadorCaso05()
         {
             var ganador = new Ganador(new List<Jugador>());
             jugador.Eleccion = "Piedra";
             jugador2.Eleccion = "Tijera";
-            var result = ganador.VerGanador(jugador);
-            Assert.AreEqual("Gano", result);
+            var result = ganador.VerGanador(jugador, jugador2);
+            Assert.AreEqual("gana jugador 1", result);
         }
         [Test]
-        public void Caso03()
+        public void VerGanadorCaso06()
+        {
+            var ganador = new Ganador(new List<Jugador>());
+            jugador.Eleccion = "Tijera";
+            jugador2.Eleccion = "Piedra";
+            var result = ganador.VerGanador(jugador, jugador2);
+            Assert.AreEqual("gana jugador 2", result);
+        }
+        [Test]
+        public void VerGanadorCaso07()
+        {
+            var ganador = new Ganador(new List<Jugador>());
+            jugador.Eleccion = "Piedra";
+            jugador2.Eleccion = "Piedra";
+            var result = ganador.VerGanador(jugador, jugador2);
+            Assert.AreEqual("Empate", result);
+        }
+        [Test]
+        public void VerGanadorCaso08()
         {
             var ganador = new Ganador(new List<Jugador>());
             jugador.Eleccion = "Tijera";
             jugador2.Eleccion = "Tijera";
-            var result = ganador.VerGanador(jugador);
+            var result = ganador.VerGanador(jugador, jugador2);
             Assert.AreEqual("Empate", result);
         }
         [Test]
-        public void Caso04()
+        public void VerGanadorCaso09()
         {
             var ganador = new Ganador(new List<Jugador>());
-            jugador.Eleccion = "Tijera";
-            jugador2.Eleccion = "Papel";
-            var result = ganador.VerGanador(jugador);
-            Assert.AreEqual("Gano", result);
+            jugador.Eleccion = "Papel";
+            jugador2.Eleccion = "Piedra";
+            var result = ganador.VerGanador(jugador, jugador2);
+            Assert.AreEqual("gana jugador 1", result);
         }
         [Test]
-        public void Caso05()
+        public void VerGanadorCaso10()
         {
             var ganador = new Ganador(new List<Jugador>());
-            jugador.Eleccion = "Tijera";
+            jugador.Eleccion = "Piedra";
             jugador2.Eleccion = "Papel";
-            var result = ganador.VerGanador(jugador);
-            Assert.AreEqual("Gano", result);
+            var result = ganador.VerGanador(jugador, jugador2);
+            Assert.AreEqual("gana jugador 2", result);
         }
         [Test]
-        public void Caso06()
+        public void VerGanadorCaso11()
         {
             var ganador = new Ganador(new List<Jugador>());
-            jugador.Eleccion = "Tijera";
-            jugador2.Eleccion = "Papel";
-            var result = ganador.VerGanador(jugador);
-            Assert.AreEqual("Gano", result);
+            jugador.Eleccion = "Piedra";
+            jugador2.Eleccion = " ";
+            var result = ganador.VerGanador(jugador, jugador2);
+            Assert.AreEqual("gana jugador 1", result);
         }
         [Test]
-        public void Caso07()
+        public void VerGanadorCaso12()
         {
             var ganador = new Ganador(new List<Jugador>());
-            jugador.Eleccion = "Tijera";
-            jugador2.Eleccion = "Papel";
-            var result = ganador.VerGanador(jugador);
-            Assert.AreEqual("Gano", result);
+            jugador.Eleccion = " ";
+            jugador2.Eleccion = "Tijera";
+            var result = ganador.VerGanador(jugador, jugador2);
+            Assert.AreEqual("gana jugador 2", result);
         }
         [Test]
-        public void Caso08()
+        public void VerGanadorCaso13()
         {
             var ganador = new Ganador(new List<Jugador>());
-            jugador.Eleccion = "Tijera";
+            jugador.Eleccion = " ";
             jugador2.Eleccion = "Papel";
-            var result = ganador.VerGanador(jugador);
-            Assert.AreEqual("Gano", result);
+            var result = ganador.VerGanador(jugador, jugador2);
+            Assert.AreEqual("gana jugador 2", result);
         }
         [Test]
-        public void Caso09()
+        public void VerGanadorCaso14()
         {
             var ganador = new Ganador(new List<Jugador>());
             jugador.Eleccion = "Tijera";
-            jugador2.Eleccion = "Papel";
-            var result = ganador.VerGanador(jugador);
-            Assert.AreEqual("Gano", result);
-        }
-        [Test]
-        public void Caso10()
-        {
-            var ganador = new Ganador(new List<Jugador>());
-            jugador.Eleccion = "Tijera";
-            jugador2.Eleccion = "Papel";
-            var result = ganador.VerGanador(jugador);
-            Assert.AreEqual("Gano", result);
-        }
-        [Test]
-        public void Caso11()
-        {
-            var ganador = new Ganador(new List<Jugador>());
-            jugador.Eleccion = "Tijera";
-            jugador2.Eleccion = "Papel";
-            var result = ganador.VerGanador(jugador);
-            Assert.AreEqual("Gano", result);
-        }
-        [Test]
-        public void Caso12()
-        {
-            var ganador = new Ganador(new List<Jugador>());
-            jugador.Eleccion = "Tijera";
-            jugador2.Eleccion = "Papel";
-            var result = ganador.VerGanador(jugador);
-            Assert.AreEqual("Gano", result);
+            jugador2.Eleccion = " ";
+            var result = ganador.VerGanador(jugador, jugador2);
+            Assert.AreEqual("gana jugador 1", result);
         }
     }
 }

@@ -4974,11 +4974,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\2021-2 UPN\\CALIDAD\\Semana 3\\Practica Calificada\\Practica_T1_01_Calidad\\Practica_T1_01_CalidadTest\\Practica_T1_01_CalidadTest.csproj",
+      "projectUniqueName": "D:\\2021-2 UPN\\CALIDAD\\Semana 3\\Practica_T1_01_Calidad\\Practica_T1_01_CalidadTest\\Practica_T1_01_CalidadTest.csproj",
       "projectName": "Practica_T1_01_CalidadTest",
-      "projectPath": "D:\\2021-2 UPN\\CALIDAD\\Semana 3\\Practica Calificada\\Practica_T1_01_Calidad\\Practica_T1_01_CalidadTest\\Practica_T1_01_CalidadTest.csproj",
+      "projectPath": "D:\\2021-2 UPN\\CALIDAD\\Semana 3\\Practica_T1_01_Calidad\\Practica_T1_01_CalidadTest\\Practica_T1_01_CalidadTest.csproj",
       "packagesPath": "C:\\Users\\FRC\\.nuget\\packages\\",
-      "outputPath": "D:\\2021-2 UPN\\CALIDAD\\Semana 3\\Practica Calificada\\Practica_T1_01_Calidad\\Practica_T1_01_CalidadTest\\obj\\",
+      "outputPath": "D:\\2021-2 UPN\\CALIDAD\\Semana 3\\Practica_T1_01_Calidad\\Practica_T1_01_CalidadTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\FRC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4995,8 +4995,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\2021-2 UPN\\CALIDAD\\Semana 3\\Practica Calificada\\Practica_T1_01_Calidad\\Practica_T1_01_Calidad\\Practica_T1_01_Calidad.csproj": {
-              "projectPath": "D:\\2021-2 UPN\\CALIDAD\\Semana 3\\Practica Calificada\\Practica_T1_01_Calidad\\Practica_T1_01_Calidad\\Practica_T1_01_Calidad.csproj"
+            "D:\\2021-2 UPN\\CALIDAD\\Semana 3\\Practica_T1_01_Calidad\\Practica_T1_01_Calidad\\Practica_T1_01_Calidad.csproj": {
+              "projectPath": "D:\\2021-2 UPN\\CALIDAD\\Semana 3\\Practica_T1_01_Calidad\\Practica_T1_01_Calidad\\Practica_T1_01_Calidad.csproj"
             }
           }
         }
